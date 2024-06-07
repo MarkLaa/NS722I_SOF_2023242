@@ -1,0 +1,66 @@
+﻿@model TaskFeladatUpdateViewModel
+
+<h2>Frissítse a csapatot</h2>
+
+<form action="updatecsapat" method="post">
+
+	<label>Id</label>
+	<br />
+	<input type="number" name="id" min="1" required value="@Model.Csapat.Id">
+	<br />
+
+	<label>Név</label>
+	<br />
+	<input type="text" name="name" required maxlength="50" value="@Model.Csapat.Name" />
+	<br />
+
+
+	<label>Feladat</label>
+	<br />
+	<select name="feladat">
+		@foreach (var item in Model.Feladatok)
+		{
+			<option value=@item.Name>
+				@item.Name
+			</option>
+		}
+	</select>
+	<br />
+	<label>Csapat Név</label>
+	<br />
+	<select name="csapattagok">
+		@foreach (var item in Model.Emberek)
+		{
+			<option value=@item.Név>
+				@item.Név
+			</option>
+		}
+	</select>
+	<select name="csapattagok">
+		@foreach (var item in Model.Emberek)
+		{
+			<option value=@item.Név>
+				@item.Név
+			</option>
+		}
+	</select>
+	<select name="csapattagok">
+		@foreach (var item in Model.Emberek)
+		{
+			<option value=@item.Név>
+				@item.Név
+			</option>
+		}
+	</select>
+	<select name="csapattagok">
+		@foreach (var item in Model.Emberek)
+		{
+			<option value=@item.Név>
+				@item.Név
+			</option>
+		}
+	</select>
+	<br />
+
+	<input type="submit" value="Frissít" />
+</form>

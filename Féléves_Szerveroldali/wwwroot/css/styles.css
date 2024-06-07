@@ -1,0 +1,30 @@
+﻿table {
+    border: 1px solid;
+    width: 69%;
+    text-align: center;
+    vertical-align: bottom;
+    background-color:aquamarine
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+tr:hover {
+    background-color: rebeccapurple;
+}
+body {
+    background-color:lightcoral;
+    margin:5px;
+    padding:5px;
+    
+}
+header {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 5px;
+}
+label{
+    color:chartreuse
+    
+}
+

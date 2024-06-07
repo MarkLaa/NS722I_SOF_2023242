@@ -1,0 +1,16 @@
+﻿@model Feladat
+
+<h2>Frissítse a feladatot!</h2>
+
+<form action="update" method="post">
+	<label>Id</label>
+	<br />
+	<input type="number" name="id" min="1" required value="@Model.Id">
+	<br />
+
+	<label>Név</label>
+	<br />
+	<input type="text" name="name" required maxlength="50" value="@Model.Name" />
+	<br />
+	<input type="submit" value="Frissít" />
+</form>

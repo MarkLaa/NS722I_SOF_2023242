@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|c:\\munka\\f\u00E9l\u00E9ves_szerveroldali\\f\u00E9l\u00E9ves_szerveroldali\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|solutionrelative:f\u00E9l\u00E9ves_szerveroldali\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|c:\\munka\\f\u00E9l\u00E9ves_szerveroldali\\f\u00E9l\u00E9ves_szerveroldali\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|solutionrelative:f\u00E9l\u00E9ves_szerveroldali\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|c:\\munka\\f\u00E9l\u00E9ves_szerveroldali\\f\u00E9l\u00E9ves_szerveroldali\\controllers\\feladatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|solutionrelative:f\u00E9l\u00E9ves_szerveroldali\\controllers\\feladatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|c:\\munka\\f\u00E9l\u00E9ves_szerveroldali\\f\u00E9l\u00E9ves_szerveroldali\\views\\feladat\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|solutionrelative:f\u00E9l\u00E9ves_szerveroldali\\views\\feladat\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|c:\\munka\\f\u00E9l\u00E9ves_szerveroldali\\f\u00E9l\u00E9ves_szerveroldali\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|solutionrelative:f\u00E9l\u00E9ves_szerveroldali\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|c:\\munka\\f\u00E9l\u00E9ves_szerveroldali\\f\u00E9l\u00E9ves_szerveroldali\\views\\feladat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A4DE6CA-306E-4681-AD33-512CB0E3F7E1}|F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali.csproj|solutionrelative:f\u00E9l\u00E9ves_szerveroldali\\views\\feladat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "F\u00E9l\u00E9ves_Szerveroldali\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "F\u00E9l\u00E9ves_Szerveroldali\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T01:28:06.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "F\u00E9l\u00E9ves_Szerveroldali\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "F\u00E9l\u00E9ves_Szerveroldali\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T01:28:00.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Views\\Feladat\\Update.cshtml",
+              "RelativeDocumentMoniker": "F\u00E9l\u00E9ves_Szerveroldali\\Views\\Feladat\\Update.cshtml",
+              "ToolTip": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Views\\Feladat\\Update.cshtml",
+              "RelativeToolTip": "F\u00E9l\u00E9ves_Szerveroldali\\Views\\Feladat\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T00:56:15.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FeladatController.cs",
+              "DocumentMoniker": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Controllers\\FeladatController.cs",
+              "RelativeDocumentMoniker": "F\u00E9l\u00E9ves_Szerveroldali\\Controllers\\FeladatController.cs",
+              "ToolTip": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Controllers\\FeladatController.cs",
+              "RelativeToolTip": "F\u00E9l\u00E9ves_Szerveroldali\\Controllers\\FeladatController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAswE4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T23:53:06.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "scripts.js",
+              "DocumentMoniker": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\wwwroot\\js\\scripts.js",
+              "RelativeDocumentMoniker": "F\u00E9l\u00E9ves_Szerveroldali\\wwwroot\\js\\scripts.js",
+              "ToolTip": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\wwwroot\\js\\scripts.js",
+              "RelativeToolTip": "F\u00E9l\u00E9ves_Szerveroldali\\wwwroot\\js\\scripts.js",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-06T22:49:03.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Views\\Feladat\\Index.cshtml",
+              "RelativeDocumentMoniker": "F\u00E9l\u00E9ves_Szerveroldali\\Views\\Feladat\\Index.cshtml",
+              "ToolTip": "C:\\Munka\\F\u00E9l\u00E9ves_Szerveroldali\\F\u00E9l\u00E9ves_Szerveroldali\\Views\\Feladat\\Index.cshtml",
+              "RelativeToolTip": "F\u00E9l\u00E9ves_Szerveroldali\\Views\\Feladat\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwAcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T22:09:10.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

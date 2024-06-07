@@ -1,0 +1,17 @@
+﻿@model Feladat
+
+<h2>Adj hozzá egy új dolgozót!</h2>
+
+<form action="create" method="post">
+	<label>Id</label>
+	<br />
+	<input type="number" name="id" min="1" required>
+	<br />
+
+	<label>Név</label>
+	<br />
+	<input type="text" name="name" required maxlength="50" required />
+	<br />
+
+	<input type="submit" value="Létrehoz" />
+</form>

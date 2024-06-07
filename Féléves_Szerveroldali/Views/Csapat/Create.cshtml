@@ -1,0 +1,29 @@
+﻿@model TaskIndexViewModell
+
+<h2>Adj hozzá egy új dolgozót!</h2>
+
+<form action="create" method="post">
+	<label>Id</label>
+	<br />
+	<input type="number" name="id" min="1" required>
+	<br />
+
+	<label>Név</label>
+	<br />
+	<input type="text" name="név" required maxlength="50" required />
+	<br />
+
+	<label>Csapat Név</label>
+	<br />
+	<select name="Csapat" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+		@foreach (var item in Model.Csapatok)
+		{
+			<option value=@item.Name>
+				@item.Name
+			</option>
+		}
+	</select>
+	<br />
+
+	<input type="submit" value="Létrehoz" />
+</form>

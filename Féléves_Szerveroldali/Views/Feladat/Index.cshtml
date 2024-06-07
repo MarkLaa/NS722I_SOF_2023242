@@ -1,0 +1,85 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model FeladatIndexViewModell
+@inject SignInManager<SiteUser> SignInManager
+@inject UserManager<SiteUser> UserManager
+
+
+	<head>
+		  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+<h1>Feladatok listája</h1>
+
+
+<table>
+	<th>
+		<th>Profil</th>
+		<th>ID</th>
+		<th>Név</th>
+		<th>Actions</th>
+	</th>
+	@foreach (var item in Model.Feladatok)
+	{
+		@:<tr>
+			@if(item.Id > 3)
+			{
+				@:<td><img src="@Url.Action("GetImage","Feladat",new{userid = item.OwnerId})"/></td>
+				
+			}
+			else
+			{
+				<td>NoPic</td>
+			}
+		@:<td>@item.Id</td>
+			@:<td>@item.Name</td>
+			@:<td><button type="button" class="btn btn-warning"><a href="/feladat/update?id=@item.Id" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Update</a></button></td>
+			@if(item.OwnerId == UserManager.GetUserId(User))
+			{
+				@:<td> <button type="button" class="btn btn-danger"><a href="/feladat/delete?id=@item.Id" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Delete</a></button> </td>
+				
+			}
+		@:</tr>
+	}
+</table>
+
+<a href="/feladat/create">Adj hozzá új Feladatot</a>
+
+
+
+<h1>Csapatok listája</h1>
+
+
+<table id="table1">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Név</th>
+			<th>Feladat</th>
+			<th>Csapattagok</th>
+			<th></th>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody id="tablebody">
+		@* @foreach (var item in Model.Csapatok)
+		{
+			@:<tr>
+				@:<td>@item.Id</td>
+				@:<td>@item.Name</td>
+				@:<td>@item.Feladat</td> 
+
+			
+				@foreach (var item2 in item.Csapattagok)
+				{
+					<td>@item2</td>
+				}
+			@:</tr>
+		} *@
+	</tbody>
+</table>
+<script src="~/js/scripts.js"></script>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>

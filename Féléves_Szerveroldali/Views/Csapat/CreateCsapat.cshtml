@@ -1,0 +1,54 @@
+﻿@model TaskIndexViewModell
+
+<h2>Adj hozzá egy új csapatot</h2>
+
+<form action="createcsapat" method="post">
+	<label>Id</label>
+	<br />
+	<input type="number" name="id" min="1" required>
+	<br />
+
+	<label>Név</label>
+	<br />
+	<input type="text" name="name" required maxlength="50" />
+	<br />
+
+
+	<label>Csapat Név</label>
+	<br />
+	<select name="csapattagok" class="form-select form-select-sm" aria-label=".form-select-sm example">
+		@foreach (var item in Model.Emberek)
+		{
+			<option value=@item.Név>
+				@item.Név
+			</option>
+		}
+	</select>
+	<select name="csapattagok" class="form-select form-select-sm" aria-label=".form-select-sm example">
+		@foreach (var item in Model.Emberek)
+		{
+			<option value=@item.Név>
+				@item.Név
+			</option>
+		}
+	</select>
+	<select name="csapattagok" class="form-select form-select-sm" aria-label=".form-select-sm example">
+		@foreach (var item in Model.Emberek)
+		{
+			<option value=@item.Név>
+				@item.Név
+			</option>
+		}
+	</select>
+	<select name="csapattagok" class="form-select form-select-sm" aria-label=".form-select-sm example">
+		@foreach (var item in Model.Emberek)
+		{
+			<option value=@item.Név>
+				@item.Név
+			</option>
+		}
+	</select>
+	<br />
+
+	<input type="submit" value="Létrehoz" />
+</form>

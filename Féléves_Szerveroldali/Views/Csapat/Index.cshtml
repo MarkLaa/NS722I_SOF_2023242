@@ -1,0 +1,100 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model TaskIndexViewModell
+@inject SignInManager<SiteUser> SignInManager
+@inject UserManager<SiteUser> UserManager
+
+<h1>Dolgozók listája</h1>
+
+
+<table>
+	<tr>
+		<th>Profil</th>
+		<th>ID</th>
+		<th>Név</th>
+		<th>Csapat</th>
+		<th>Actions</th>
+	</tr>
+	@foreach (var item in Model.Emberek)
+	{
+		@:<tr>
+			@if(item.Id > 4)
+			{
+				@:<td><img src="@Url.Action("GetImage","Csapat",new{userid = item.OwnerId})"/></td>
+				
+			}
+			else
+			{
+				<td>NoPic</td>
+			}
+			@:<td>@item.Id</td>
+			@:<td>@item.Név</td>
+			@:<td>@item.Csapat</td> 
+			@:<td><button type="button" class="btn btn-warning"><a href="/csapat/update?id=@item.Id" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Update</a></button></td>
+			@if(item.OwnerId == UserManager.GetUserId(User))
+			{
+				@:<td><button type="button" class="btn btn-danger"><a href="/csapat/delete?id=@item.Id" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Delete</a></button></td>
+				
+			}
+		@:</tr>
+	}
+</table>
+
+<a href="/csapat/create">Adj hozzá új dolgozót</a>
+
+
+
+<h1>Csapatok listája</h1>
+
+
+<table>
+	<tr>
+		<th>Profil</th>
+		<th>ID</th>
+		<th>Név</th>
+		<th>Feladat</th>
+		<th>Csapattagok</th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th>Actions</th>
+	</tr>
+	@foreach (var item in Model.Csapatok)
+	{
+		@:<tr>
+			@if(item.Id > 3)
+			{
+				@:<td><img src="@Url.Action("GetImage","Csapat",new{userid = item.OwnerId})"/></td>
+				
+			}
+			else
+			{
+				<td>NoPic</td>
+			}
+			@:<td>@item.Id</td>
+			@:<td>@item.Name</td>
+			@:<td>@item.Feladat</td> 
+
+			
+			@foreach (var item2 in item.Csapattagok)
+			{
+				<td>@item2</td>
+			}
+		    
+
+			
+			@:<td><button type="button" class="btn btn-warning"><a href="/csapat/updatecsapat?id=@item.Id" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Update</a></button></td>
+
+			@if(item.OwnerId == UserManager.GetUserId(User))
+			{
+				@:<td><button type="button" class="btn btn-danger"><a href="/csapat/deletecsapat?id=@item.Id" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Delete</a></button></td>
+				
+			}
+		@:</tr>
+	}
+</table>
+<a href="/csapat/createcsapat">Adj hozzá új Csapatot</a>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>

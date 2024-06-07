@@ -1,0 +1,29 @@
+﻿@model TaskUpdateViewModell
+
+<h2>Frissítse a dolgozót!</h2>
+
+<form action="update" method="post">
+	<label>Id</label>
+	<br />
+	<input type="number" name="id" min="1" required value="@Model.ember.Id">
+	<br />
+
+	<label>Név</label>
+	<br />
+	<input type="text" name="név" required maxlength="50" value="@Model.ember.Név" />
+	<br />
+
+	<label>Csapat Név</label>
+	<br />
+	<select name="Csapat">
+		@foreach (var item in Model.repo2)
+		{
+			<option value=@item.Name>
+				@item.Name
+			</option>
+		}
+	</select>
+	<br />
+
+	<input type="submit" value="Frissít" />
+</form>
